@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ECDHES_Example' do
+  pod 'ECDHES', :path => '../'
+
+  target 'ECDHES_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
