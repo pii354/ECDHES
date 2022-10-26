@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.platform = :ios
   s.name             = 'ECDHES'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'ECDHES Swift Lib'
   s.description      = 'JWE: Key Agreement with Elliptic Curve Diffie-Hellman Ephemeral Static (ECDH-ES) arbitrary data encryption and decryption.'
   s.homepage         = 'https://github.com/pii354/ECDHES'
