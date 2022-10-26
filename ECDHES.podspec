@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/Gaurav/ECDHES'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Gaurav' => 'gauravnarendrakumar.mehta@capitalone.com' }
-  s.source           = { :git => 'https://github.com/Gaurav/ECDHES.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/pii354/ECDHES.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
   s.swift_version = '4.2'
