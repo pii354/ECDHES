@@ -14,7 +14,6 @@ Pod::Spec.new do |s|
   s.description      = 'JWE: Key Agreement with Elliptic Curve Diffie-Hellman Ephemeral Static (ECDH-ES) arbitrary data encryption and decryption.'
 
   s.homepage         = 'https://github.com/Gaurav/ECDHES'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Gaurav' => 'gauravnarendrakumar.mehta@capitalone.com' }
   s.source           = { :git => 'https://github.com/Gaurav/ECDHES.git', :tag => s.version.to_s }
