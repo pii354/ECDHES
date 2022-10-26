@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Gaurav/ECDHES.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
-  s.Swift = '4.2'
+  s.swift_version = '4.2'
   s.source_files = 'ECDHES/Classes/**/*'
   
   s.dependency 'JOSESwift', '~> 1.8'
