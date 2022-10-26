@@ -2,12 +2,14 @@ use_frameworks!
 
 platform :ios, '10.0'
 
+source 'https://github.com/CocoaPods/Specs.git'
+
 target 'ECDHES_Example' do
   pod 'ECDHES', :path => '../'
-
+  pod 'JOSESwift', '~> 1.8'
+  pod 'CryptoSwift', '~> 1.0.0'
+  
   target 'ECDHES_Tests' do
     inherit! :search_paths
-
-    
   end
 end

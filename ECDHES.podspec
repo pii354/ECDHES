@@ -9,34 +9,20 @@
 Pod::Spec.new do |s|
   s.name             = 'ECDHES'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ECDHES.'
+  s.summary          = 'ECDHES Swift Lib'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'JWE: Key Agreement with Elliptic Curve Diffie-Hellman Ephemeral Static (ECDH-ES) arbitrary data encryption and decryption.'
 
   s.homepage         = 'https://github.com/Gaurav/ECDHES'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Gaurav' => 'gaurav.mehta@concordusa.com' }
+  s.author           = { 'Gaurav' => 'gauravnarendrakumar.mehta@capitalone.com' }
   s.source           = { :git => 'https://github.com/Gaurav/ECDHES.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-
+  s.Swift = '4.2'
   s.source_files = 'ECDHES/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ECDHES' => ['ECDHES/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'JOSESwift', '~> 1.8'
+  s.dependency 'CryptoSwift', '~> 1.0.0'
 end

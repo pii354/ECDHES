@@ -1,0 +1,27 @@
+PODS:
+  - CryptoSwift (1.0.0)
+  - ECDHES (0.1.0)
+  - JOSESwift (1.8.1)
+
+DEPENDENCIES:
+  - CryptoSwift (~> 1.0.0)
+  - ECDHES (from `../`)
+  - JOSESwift (~> 1.8)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CryptoSwift
+    - JOSESwift
+
+EXTERNAL SOURCES:
+  ECDHES:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CryptoSwift: d81eeaa59dc5a8d03720fe919a6fd07b51f7439f
+  ECDHES: 866ac99b069e8401ed512061a4b86ac4d7772a31
+  JOSESwift: 49c6e4497e061e085b9680b84b8cd6b5b64329bd
+
+PODFILE CHECKSUM: 51c5f26565dfcdce8d8faa10967377fc982e0b76
+
+COCOAPODS: 1.11.3

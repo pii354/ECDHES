@@ -1,0 +1,6 @@
+framework module ECDHES {
+  umbrella header "ECDHES-umbrella.h"
+
+  export *
+  module * { export * }
+}
